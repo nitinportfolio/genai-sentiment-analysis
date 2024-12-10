@@ -7,7 +7,7 @@ import os
 
 
 bucket_name = "nitinai-mlops"
-local_path = "tinybert-sentiment-analysis-download"
+local_path = "tinybert-sentiment-analysis"
 s3_prefix = "ml-models/tinybert-sentiment-analysis"
 
 s3 = boto3.client("s3")
